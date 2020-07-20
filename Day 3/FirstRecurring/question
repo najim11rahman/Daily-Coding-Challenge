@@ -1,0 +1,6 @@
+Find and return length of maximum consecutive sequence present in the array.
+Input format :
+Line 1 : Integer N 
+Line 2 : N integers separated be a single space
+Output Format :
+ Maximum Length
