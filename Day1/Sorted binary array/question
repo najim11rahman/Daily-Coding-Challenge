@@ -1,0 +1,5 @@
+Given an array, containing only 0 and 1 as its elements. The elements are kept in random order. You have to sort the array. The constraints are:
+1. You cannot count or add the elements of arrays.
+2. You cannot use extra array. 
+For example, if the input array is: [0, 1, 1, 0, 1, 1], then the output array must be: [0, 0, 1, 1, 1, 1]
+Expected Complexity: Try doing it in O(n) time complexity and O(1) space complexity. Here, n is the size of array.
