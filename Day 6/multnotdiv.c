@@ -15,8 +15,11 @@ void findProduct(int arr[], int n)
 
 int main(void)
 {
-	int arr[] = { 5, 3, 4, 2, 6, 8 };
-	int n = sizeof(arr) / sizeof(arr[0]);
+	int n,i;
+	scanf("%d",&n);
+	int arr[n];
+	for(i=0;i<n;i++){
+		scanf("%d",&arr[i]);}
 	findProduct(arr, n);
 	for (int i = 0; i < n; i++)
 		printf("%d ", arr[i]);
