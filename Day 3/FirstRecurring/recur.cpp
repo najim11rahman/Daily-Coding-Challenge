@@ -9,7 +9,7 @@ char recurring(string &str){
 		char c = str[i];
 		if (hash.find(c)!=hash.end())
 		{
-			return 0;
+			return c;
 		}
 		else{
 			hash.insert(c);
@@ -21,6 +21,7 @@ char recurring(string &str){
 		
 int main()
 {
+        string str;
 	cin >> str;
 	cout << recurring(str);
 	return 0;
